@@ -1,0 +1,102 @@
+header {
+    background: rgb(134, 167, 134);
+}
+
+.imagemlogo {
+    position: relative;
+    width: 300px;
+ }
+
+ nav {
+	position: absolute;
+	top: 110px;
+	right: 135px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+    padding: 80px;
+}
+
+nav a:hover {
+	color: yellowgreen;
+	text-decoration: underline;
+}
+
+body {
+    background: grey;
+}
+h1 {
+    position: absolute;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    width: 100%;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.2em greenyellow;
+}
+main h1:hover{
+    color: red;
+}
+
+article {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 200px;
+    
+	
+}
+
+.primeiro-paragrafo {
+    position: relative;
+    margin-left: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+}
+
+.segundo-paragrafo {
+    position: relative;
+    margin-left: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+}
+footer {
+   position: absolute;
+   margin-top: 600px;
+   width: 100%;
+}
+.listarodape  ul li {
+  position: relative;  
+  display: inline;
+  line-height:2.5;
+  text-align: center;
+  vertical-align: bottom;
+  margin: 0 0 0 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.listarodape:hover{
+    color: yellow;
+}
+.imagemrodape {
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    left: 425px;
+    
+}

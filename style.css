@@ -1,0 +1,192 @@
+header {
+    background: rgb(134, 167, 134);
+}
+
+.imagemlogo {
+    position: relative;
+    width: 300px;
+ }
+
+ nav {
+	position: absolute;
+	top: 110px;
+	right: 135px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+    padding: 80px;
+}
+
+nav a:hover {
+	color: yellowgreen;
+	text-decoration: underline;
+}
+
+body {
+    background: grey;
+}
+h1 {
+    position: absolute;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    width: 100%;
+    font-size: 50px;
+    text-shadow: 0.1em 0.1em 0.2em greenyellow;
+}
+main h1:hover{
+    color: red;
+}
+
+article {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 200px;
+    
+	
+}
+
+.primeiro-paragrafo {
+    position: relative;
+    margin-left: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.segundo-paragrafo {
+    position: relative;
+    margin-left: 30px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+footer {
+   position: absolute;
+   margin-top: 300px;
+   width: 100%;
+}
+.listarodape  ul li {
+  position: relative;  
+  display: inline;
+  line-height:2.5;
+  text-align: center;
+  vertical-align: bottom;
+  margin: 0 0 0 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.listarodape:hover{
+    color: yellow;
+}
+.imagemrodape {
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    left: 425px;
+    
+}
+
+.formulariocontato {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;	
+	border-radius: 5px;
+	transition: 2s all;
+	cursor: pointer;
+
+}
+
+.enviar:hover {
+	background: red;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+.java {
+    position: relative;
+    left: 500px;
+    margin-top: 280px;
+}
+
+.autor{
+    line-height: 3.5;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.boneco{
+    position: absolute;
+    left: 500px;
+}
+
+.jura {
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 400px;
+    color: white;
+}
+
+.tecnico {
+   position: absolute;
+    margin-left: 40px;
+    margin-top: 450px;
+    color: white;
+}
+

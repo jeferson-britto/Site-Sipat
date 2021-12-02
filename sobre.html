@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <img src="./img/logo.png" class="imagemlogo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="autor">
+        <p>Está página foi desenvolvida utilizando a última versão da linguagem de marcação HTML5</p>
+        <p>Para formatação do estilo do site foi utilizado a última versão do CSS </p>
+        <p>Para deixar o site dinâmico foi utilizado a linguagem de programação JavaScript </p>
+
+        <h2 class="jura"> Autor: Jurandir Inácio </h2>      
+        <h3 class="tecnico"> Curso: Técnico em Informática </h3>
+        
+    </div>
+    <img src="./img/boneco-sipat1.jpg" class="boneco">
+
+<div class="java">
+    
+ 
+<form> 
+    <label>Deixe sua opinião sobre o site</label>
+   <select name="codigo"> 
+      <option value="1">ótimo</option>
+      <option value="2">regular</option>
+      <option value="3">ruim</option>
+   </select>
+ <input type="button" value="Confirmar" class="FormBotao" onclick="confirmExclusao()" /> 
+</form>
+<script>
+   
+        
+    function confirmExclusao() {
+       if (confirm(" Obrigado por deixar sua opinião")) {
+          location.href="deletar_categoria.jsp?acao=deletar";
+       }
+    }
+    </script>
+    
+</div>
+
+
+
+    <footer>
+        <img src="./img/rodape.png" class="imagemrodape">
+
+        <div class="listarodape">
+            <ul>
+                <li>Saúde e Segurança</li>
+                <li>Seu EPI é seu anjo da guarda</li>
+                <li>Segurança Objetivo de todos</li>
+
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
